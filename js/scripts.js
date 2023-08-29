@@ -6,6 +6,7 @@ const restart = document.querySelector("#restart")
 const result = document.querySelector("#result")
 const historic = document.querySelector("#historic")
 
+
 // textos
 
 const texts = [
@@ -18,7 +19,6 @@ const texts = [
 
 // funcões
 
-// inserir texto randomico
 function newText() {
     const index = Math.floor(Math.random() * texts.length)
     text.textContent = texts[index]
@@ -70,8 +70,11 @@ function restartTest() {
     historic.innerHTML = ""
 }
 
+//eventos
 
 input.addEventListener("keyup", updateText)
 restart.addEventListener("click", restartTest)
+
+//iniciar
 
 newText()

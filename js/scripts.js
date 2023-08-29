@@ -9,11 +9,11 @@ const historic = document.querySelector("#historic")
 // textos
 
 const texts = [
-    "Texto1",
-    "Texto2",
-    "Texto3",
-    "Texto4",
-    "Texto5"
+    "O número dos que nos invejam confirma as nossas capacidades.",
+    "A vida é muito importante para ser levada a sério.",
+    "É melhor conquistar a si mesmo do que vencer mil batalhas.",
+    "Ser feliz sem motivo é a mais autêntica forma de felicidade.",
+    "A alegria de fazer o bem é a única felicidade verdadeira."
 ]
 
 // funcões
